@@ -8,7 +8,8 @@
     "airbnb",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "prettier"
   ],
   "globals": { "React": "readonly" },
   "parser": "@typescript-eslint/parser",
@@ -21,7 +22,6 @@
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
-    "comma-dangle": "off",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "react/jsx-props-no-spreading": "off"
   },
