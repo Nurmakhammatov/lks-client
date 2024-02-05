@@ -14,7 +14,7 @@
     "start": "next start",
     "eslint": "eslint .",
     "stylelint": "stylelint **/*.tsx",
-    "prettier": "prettier --write",
+    "prettier": "prettier --write .",
     "test": "jest",
     "test:watch": "jest --watch"
   },
