@@ -2,6 +2,6 @@ import 'styled-components';
 
 declare module 'styled-components' {
   export interface DefaultTheme {
-    colors: { primary: string; window: string };
+    colors: { backgroundcolor: string; primary: string; window: string };
   }
 }
