@@ -2,10 +2,10 @@ import styled from 'styled-components';
 
 const StyledTaskbarEntries = styled.ol`
   background-color: purple;
-  left: 30px;
+  left: ${({ theme }) => theme.sizes.startButton.width};
   height: 100%;
   position: absolute;
-  right: 90px;
+  right: ${({ theme }) => theme.sizes.clock.width};
   width: 100%;
 `;
 
