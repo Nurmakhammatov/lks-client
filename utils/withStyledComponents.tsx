@@ -14,7 +14,7 @@ const withStyledComponents = async (
         enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />)
       });
 
-    const {styles, ...initialProps} = await Document.getInitialProps(ctx);
+    const { styles, ...initialProps } = await Document.getInitialProps(ctx);
 
     return {
       ...initialProps,
