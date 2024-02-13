@@ -6,7 +6,6 @@ const StyledTaskbarEntries = styled.ol`
   height: 100%;
   position: absolute;
   right: ${({ theme }) => theme.sizes.clock.width};
-  width: 100%;
 `;
 
 export default StyledTaskbarEntries;
